@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.1.0...v1.2.0) (2021-06-11)
+
+
+### Features
+
+* Update README ([#18](https://github.com/kunalnagarco/action-semantic-pull-request/issues/18)) ([519f790](https://github.com/kunalnagarco/action-semantic-pull-request/commit/519f790fe0b5df359143f6ebf2e6b00cc6d79d35))
+
 ## [1.1.0](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.0.0...v1.1.0) (2021-06-11)
 
 
