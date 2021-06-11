@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.2.0...v1.2.1) (2021-06-11)
+
+
+### Chores
+
+* Update Action ([7816e01](https://github.com/kunalnagarco/action-semantic-pull-request/commit/7816e01b7b15880478152be430c8704e05f9555c))
+
 ## [1.2.0](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.1.0...v1.2.0) (2021-06-11)
 
 
