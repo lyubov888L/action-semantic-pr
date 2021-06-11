@@ -2,7 +2,7 @@ name: 'semantic-pr'
 description: 'Ensure your PR title matches the Conventional Commits specification'
 author: '@kunalnagarco'
 branding:
-  icon: 'check-circle',
+  icon: 'check-circle'
   color: 'green'
 runs:
   using: 'node12'
