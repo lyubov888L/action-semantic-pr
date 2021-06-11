@@ -4,7 +4,12 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    ["@semantic-release/changelog", {"changelogTitle": "# Changelog"}],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogTitle": "# Changelog"
+      }
+    ],
     ["@semantic-release/github", {
       "failComment": false,
       "failTitle": false,
@@ -12,7 +17,7 @@
     }],
     ["@semantic-release/git", {
       "assets": ["dist", "CHANGELOG.md"],
-      "message": "chore: Release ${nextRelease.version} [skip ci]"
+      "message": "chore(release): ${nextRelease.version}\n\n[skip ci]\n\n${nextRelease.notes}"
     }]
   ]
 }

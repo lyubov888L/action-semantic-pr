@@ -1,6 +1,6 @@
-name: 'semantic-pull-request'
+name: 'semantic-pr'
 description: 'Ensure your PR title matches the Conventional Commits specification'
-author: 'Kunal Nagar <knlnagar@gmail.com>'
+author: '@kunalnagarco'
 runs:
   using: 'node12'
   main: 'dist/index.js'

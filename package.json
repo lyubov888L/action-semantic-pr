@@ -1,5 +1,5 @@
 {
-  "name": "@kunalnagarco/action-semantic-pull-request",
+  "name": "@kunalnagarco/action-semantic-pr",
   "version": "0.0.0",
   "private": true,
   "description": "Ensure your PR title matches the Conventional Commits specification",
