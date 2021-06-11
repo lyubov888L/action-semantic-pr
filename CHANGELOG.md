@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.2](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.2.1...v1.2.2) (2021-06-11)
+
+
+### Bug Fixes
+
+* Remove comma from action.yml ([8fd590b](https://github.com/kunalnagarco/action-semantic-pull-request/commit/8fd590b79e462926b84eff7b0d661142511c3d3a))
+
 ### [1.2.1](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.2.0...v1.2.1) (2021-06-11)
 
 
