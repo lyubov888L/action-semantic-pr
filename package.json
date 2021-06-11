@@ -3,6 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "description": "Ensure your PR title matches the Conventional Commits specification",
+  "keywords": [
+    "actions",
+    "node",
+    "setup",
+    "semantic",
+    "conventional commit"
+  ],
+  "bugs": {
+    "url": "https://github.com/kunalnagarco/action-semantic-pull-request/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalnagarco/action-semantic-pull-request.git"
+  },
+  "license": "MIT",
+  "author": "Kunal Nagar <knlnagar@gmail.com>",
   "main": "lib/main.js",
   "scripts": {
     "pre-commit": "lint-staged",
@@ -15,32 +31,19 @@
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test",
     "release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kunalnagarco/action-semantic-pull-request.git"
-  },
-  "keywords": [
-    "actions",
-    "node",
-    "setup",
-    "semantic",
-    "conventional commit"
-  ],
-  "bugs": {
-    "url": "https://github.com/kunalnagarco/action-semantic-pull-request/issues"
-  },
-  "author": "Kunal Nagar <knlnagar@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@actions/core": "1.2.6",
-    "@actions/github": "^5.0.0"
-  },
   "lint-staged": {
+    "package.json": [
+      "sort-package-json"
+    ],
     "src/**/*.{ts}": [
       "npm run lint",
       "npm run format",
       "npm run format-check"
     ]
+  },
+  "dependencies": {
+    "@actions/core": "1.2.6",
+    "@actions/github": "^5.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
@@ -63,6 +66,7 @@
     "lint-staged": "^11.0.0",
     "prettier": "2.2.1",
     "semantic-release": "^17.4.3",
+    "sort-package-json": "^1.50.0",
     "ts-jest": "26.4.4",
     "typescript": "4.1.3"
   }
