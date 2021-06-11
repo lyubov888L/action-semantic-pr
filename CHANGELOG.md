@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.0.0...v1.1.0) (2021-06-11)
+
+
+### Features
+
+* Update semantic release config ([ff39ac3](https://github.com/kunalnagarco/action-semantic-pull-request/commit/ff39ac3f5965d15f1c46ddc26e0059b381c4329c))
+
+
+### Chores
+
+* Update package name ([4b65be7](https://github.com/kunalnagarco/action-semantic-pull-request/commit/4b65be7ffcf58a9a07c9d3b849355633f41f3fc9))
+
 ## 1.0.0 (2021-06-11)
 
 
