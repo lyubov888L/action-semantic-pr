@@ -1,11 +1,14 @@
 import * as github from '@actions/github'
 import * as core from '@actions/core'
-import {wait} from './wait'
 
 async function run(): Promise<void> {
-  console.log(github.context.payload.pull_request)
-  const title = github.context.payload.pull_request?.title
-  console.log(title)
+  const regexPattern = new RegExp(
+    /^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z ]+\))?: [\w ]+$/
+  )
+  const title: string = github.context.payload.pull_request?.title
+  if (!regexPattern.test(title)) {
+    core.setFailed('Invalid PR Title!')
+  }
 }
 
 run()
