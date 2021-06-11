@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.2.3](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.2...v1.2.3) (2021-06-11)
+
+
+### Bug Fixes
+
+* Repository URL in package.json ([631538b](https://github.com/kunalnagarco/action-semantic-pr/commit/631538b861f89dbc3d07d930ef50014c4c44da85))
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#17](https://github.com/kunalnagarco/action-semantic-pr/issues/17)) ([403be08](https://github.com/kunalnagarco/action-semantic-pr/commit/403be0829b638d18dbba2932a8b67c5bc997fdc1))
+
 ### [1.2.2](https://github.com/kunalnagarco/action-semantic-pull-request/compare/v1.2.1...v1.2.2) (2021-06-11)
 
 
