@@ -11,11 +11,11 @@
     "conventional commit"
   ],
   "bugs": {
-    "url": "https://github.com/kunalnagarco/action-semantic-pull-request/issues"
+    "url": "https://github.com/kunalnagarco/action-semantic-pr/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kunalnagarco/action-semantic-pull-request.git"
+    "url": "git+https://github.com/kunalnagarco/action-semantic-pr.git"
   },
   "license": "MIT",
   "author": "Kunal Nagar <knlnagar@gmail.com>",
