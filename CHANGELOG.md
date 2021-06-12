@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.5](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.4...v1.2.5) (2021-06-12)
+
+
+### Bug Fixes
+
+* RegEx syntax to match semver ([#21](https://github.com/kunalnagarco/action-semantic-pr/issues/21)) ([705bfae](https://github.com/kunalnagarco/action-semantic-pr/commit/705bfae8d52973302fde1aee42301cdb832bbea8))
+
 ### [1.2.4](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.3...v1.2.4) (2021-06-12)
 
 
