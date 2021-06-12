@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.6](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.5...v1.2.6) (2021-06-12)
+
+
+### Chores
+
+* **deps:** update dependency js-yaml to v3.14.1 ([#20](https://github.com/kunalnagarco/action-semantic-pr/issues/20)) ([f0f4b47](https://github.com/kunalnagarco/action-semantic-pr/commit/f0f4b4760fa34425c64e6e977f9893a366fc11d2))
+
 ### [1.2.5](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.4...v1.2.5) (2021-06-12)
 
 
