@@ -41,7 +41,7 @@ const core = __importStar(__webpack_require__(186));
 function run() {
     var _a;
     return __awaiter(this, void 0, void 0, function* () {
-        const regexPattern = new RegExp(/^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z ]+\))?: [\w ]+$/);
+        const regexPattern = new RegExp(/^(?<type>build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|¯\\_\(ツ\)_\/¯)(?<scope>\(\w+\)?((?=:\s)|(?=!:\s)))?(?<breaking>!)?(?<subject>:\s.*)?|^(?<merge>Merge \w+)/);
         const title = (_a = github.context.payload.pull_request) === null || _a === void 0 ? void 0 : _a.title;
         if (!regexPattern.test(title)) {
             core.setFailed('Invalid PR Title!');
