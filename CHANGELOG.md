@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.11](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.10...v1.2.11) (2021-06-15)
+
+
+### Chores
+
+* **deps:** update dependency eslint-plugin-jest to v24.3.6 ([#26](https://github.com/kunalnagarco/action-semantic-pr/issues/26)) ([25547cb](https://github.com/kunalnagarco/action-semantic-pr/commit/25547cb16b53ac7b2c60c0a70ddf1d2f31e13948))
+
 ### [1.2.10](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.9...v1.2.10) (2021-06-15)
 
 
