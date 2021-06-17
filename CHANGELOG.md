@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.15](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.14...v1.2.15) (2021-06-17)
+
+
+### Chores
+
+* **deps:** update dependency ts-jest to v26.5.6 ([#30](https://github.com/kunalnagarco/action-semantic-pr/issues/30)) ([e8a90e5](https://github.com/kunalnagarco/action-semantic-pr/commit/e8a90e5ba4b58eea9d4d4ca6d8df0d25a95b6e70))
+
 ### [1.2.14](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.13...v1.2.14) (2021-06-17)
 
 
