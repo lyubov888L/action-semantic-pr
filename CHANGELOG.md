@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.14](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.13...v1.2.14) (2021-06-17)
+
+
+### Chores
+
+* **deps:** update dependency semantic-release to v17.4.4 ([#29](https://github.com/kunalnagarco/action-semantic-pr/issues/29)) ([34ce1f3](https://github.com/kunalnagarco/action-semantic-pr/commit/34ce1f3b9ac43378041f8f5897a792ec346bbf5b))
+
 ### [1.2.13](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.12...v1.2.13) (2021-06-16)
 
 
