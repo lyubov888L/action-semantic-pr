@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.17](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.16...v1.2.17) (2021-06-18)
+
+
+### Chores
+
+* **deps:** update dependency typescript to v4.3.4 ([#33](https://github.com/kunalnagarco/action-semantic-pr/issues/33)) ([eeacdc9](https://github.com/kunalnagarco/action-semantic-pr/commit/eeacdc9b31edb4a46d963f29181f21ce43107cb5))
+
 ### [1.2.16](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.15...v1.2.16) (2021-06-18)
 
 
