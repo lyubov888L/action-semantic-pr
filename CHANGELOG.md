@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.18](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.17...v1.2.18) (2021-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @actions/core to v1.4.0 ([#32](https://github.com/kunalnagarco/action-semantic-pr/issues/32)) ([61ee3e5](https://github.com/kunalnagarco/action-semantic-pr/commit/61ee3e58a88f81de08a8a1b02a86c9c41faf6ace))
+
 ### [1.2.17](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.16...v1.2.17) (2021-06-18)
 
 
