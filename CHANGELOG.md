@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.31](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.30...v1.2.31) (2021-07-08)
+
+
+### Chores
+
+* **deps:** update dependency @types/jest to v26.0.24 ([#46](https://github.com/kunalnagarco/action-semantic-pr/issues/46)) ([f321658](https://github.com/kunalnagarco/action-semantic-pr/commit/f321658760c7c0dc3832b6f1a76a73b3892f5bff))
+
 ### [1.2.30](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.29...v1.2.30) (2021-07-06)
 
 
