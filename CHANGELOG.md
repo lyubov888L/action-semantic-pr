@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.33](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.32...v1.2.33) (2021-07-13)
+
+
+### Chores
+
+* **deps:** update dependency @typescript-eslint/parser to v4.28.3 ([#48](https://github.com/kunalnagarco/action-semantic-pr/issues/48)) ([82fdafa](https://github.com/kunalnagarco/action-semantic-pr/commit/82fdafa462e2d80115f8fe91b4ebedffaf15b9a9))
+
 ### [1.2.32](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.31...v1.2.32) (2021-07-12)
 
 
