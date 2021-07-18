@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.35](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.34...v1.2.35) (2021-07-18)
+
+
+### Chores
+
+* **deps:** update dependency eslint-plugin-github to v4.1.5 ([#50](https://github.com/kunalnagarco/action-semantic-pr/issues/50)) ([9c5da87](https://github.com/kunalnagarco/action-semantic-pr/commit/9c5da874d33e3b01e4a7f4980a9adf6b30af7d4f))
+
 ### [1.2.34](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.33...v1.2.34) (2021-07-14)
 
 
