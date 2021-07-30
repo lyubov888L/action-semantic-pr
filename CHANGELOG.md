@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.44](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.43...v1.2.44) (2021-07-30)
+
+
+### Chores
+
+* **deps:** update node.js to v12.22.4 ([#60](https://github.com/kunalnagarco/action-semantic-pr/issues/60)) ([db862ce](https://github.com/kunalnagarco/action-semantic-pr/commit/db862ce8574df58e79957ffbff387f5c595edc65))
+
 ### [1.2.43](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.42...v1.2.43) (2021-07-27)
 
 
