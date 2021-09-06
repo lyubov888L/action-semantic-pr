@@ -1,5 +1,31 @@
 # Changelog
 
+### [1.2.51](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.50...v1.2.51) (2021-09-06)
+
+
+### Bug Fixes
+
+* Broken build due to linting errors ([cd3afe5](https://github.com/kunalnagarco/action-semantic-pr/commit/cd3afe5a443dc54c097345d23a8531c552d383c4))
+* **deps:** update dependency @actions/core to v1.5.0 ([#73](https://github.com/kunalnagarco/action-semantic-pr/issues/73)) ([c1f5c27](https://github.com/kunalnagarco/action-semantic-pr/commit/c1f5c275ead1e82c3201b4c006c089ffcf613e91))
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#69](https://github.com/kunalnagarco/action-semantic-pr/issues/69)) ([5fc8053](https://github.com/kunalnagarco/action-semantic-pr/commit/5fc805367d7e93897f17af42d6a943b3ca0edd32))
+* **deps:** lock file maintenance ([#74](https://github.com/kunalnagarco/action-semantic-pr/issues/74)) ([d7ac70c](https://github.com/kunalnagarco/action-semantic-pr/commit/d7ac70cd39f09b83b6532d9763cd5434032f127e))
+* **deps:** lock file maintenance ([#77](https://github.com/kunalnagarco/action-semantic-pr/issues/77)) ([65753b0](https://github.com/kunalnagarco/action-semantic-pr/commit/65753b09523c101c9f680f34269d7563761a4c28))
+* **deps:** lock file maintenance ([#80](https://github.com/kunalnagarco/action-semantic-pr/issues/80)) ([ea0d929](https://github.com/kunalnagarco/action-semantic-pr/commit/ea0d92970b0adce8b2951e0810f7bc33ee0b8bdb))
+* **deps:** update dependency @typescript-eslint/parser to v4.29.2 ([#71](https://github.com/kunalnagarco/action-semantic-pr/issues/71)) ([b8a03dc](https://github.com/kunalnagarco/action-semantic-pr/commit/b8a03dc908027034e3fdba617c9dde44fbb72b12))
+* **deps:** update dependency @typescript-eslint/parser to v4.29.3 ([#75](https://github.com/kunalnagarco/action-semantic-pr/issues/75)) ([fc5d735](https://github.com/kunalnagarco/action-semantic-pr/commit/fc5d735e446f744167d48cf5fe18f98d4c30e94f))
+* **deps:** update dependency @typescript-eslint/parser to v4.30.0 ([#79](https://github.com/kunalnagarco/action-semantic-pr/issues/79)) ([89abab3](https://github.com/kunalnagarco/action-semantic-pr/commit/89abab3c203fc8940733ec2cdc11a7165a370d69))
+* **deps:** update dependency @vercel/ncc to v0.29.1 ([#68](https://github.com/kunalnagarco/action-semantic-pr/issues/68)) ([949658b](https://github.com/kunalnagarco/action-semantic-pr/commit/949658bd3692713db227b08029f869d6d73ade18))
+* **deps:** update dependency @vercel/ncc to v0.29.2 ([#72](https://github.com/kunalnagarco/action-semantic-pr/issues/72)) ([f0db136](https://github.com/kunalnagarco/action-semantic-pr/commit/f0db136c2ac55a2717084c0119dd95c671ec70c4))
+* **deps:** update dependency eslint-plugin-github to v4.2.0 ([#66](https://github.com/kunalnagarco/action-semantic-pr/issues/66)) ([6d0e599](https://github.com/kunalnagarco/action-semantic-pr/commit/6d0e599a2c4b5902ab0a59b20ac434c09f664d8b))
+* **deps:** update dependency semantic-release to v17.4.5 ([#70](https://github.com/kunalnagarco/action-semantic-pr/issues/70)) ([8568e37](https://github.com/kunalnagarco/action-semantic-pr/commit/8568e3749a529c04c6b2e5f9282903873e4a2691))
+* **deps:** update dependency semantic-release to v17.4.7 ([#76](https://github.com/kunalnagarco/action-semantic-pr/issues/76)) ([4e84dd4](https://github.com/kunalnagarco/action-semantic-pr/commit/4e84dd4718d48d29bd01da7ae88d6197459e2fe8))
+* **deps:** update node.js to v12.22.5 ([#67](https://github.com/kunalnagarco/action-semantic-pr/issues/67)) ([5a16968](https://github.com/kunalnagarco/action-semantic-pr/commit/5a1696877e7b050331e8f27f79c2d0f1e80059b8))
+* **deps:** update node.js to v12.22.6 ([#78](https://github.com/kunalnagarco/action-semantic-pr/issues/78)) ([15f4812](https://github.com/kunalnagarco/action-semantic-pr/commit/15f481249be3e610d05a6a6ecd986751cc79e200))
+
 ### [1.2.50](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.49...v1.2.50) (2021-08-11)
 
 
