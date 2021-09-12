@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.53](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.52...v1.2.53) (2021-09-12)
+
+
+### Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.1 ([#82](https://github.com/kunalnagarco/action-semantic-pr/issues/82)) ([7ce4f19](https://github.com/kunalnagarco/action-semantic-pr/commit/7ce4f19bd68a925de8d3bce0e21e3489a6b9a14e))
+
 ### [1.2.52](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.51...v1.2.52) (2021-09-12)
 
 
