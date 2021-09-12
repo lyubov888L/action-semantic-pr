@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.52](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.51...v1.2.52) (2021-09-12)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/git to v9.0.1 ([#81](https://github.com/kunalnagarco/action-semantic-pr/issues/81)) ([12628b8](https://github.com/kunalnagarco/action-semantic-pr/commit/12628b8ba3681dd64ad53fd56d76a6e4dc2583ff))
+
 ### [1.2.51](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.50...v1.2.51) (2021-09-06)
 
 
