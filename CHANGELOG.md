@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.57](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.56...v1.2.57) (2021-09-23)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#86](https://github.com/kunalnagarco/action-semantic-pr/issues/86)) ([c1101a3](https://github.com/kunalnagarco/action-semantic-pr/commit/c1101a30618fe32323d4dbad18a23571ea5bdcbe))
+
 ### [1.2.56](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.55...v1.2.56) (2021-09-19)
 
 
