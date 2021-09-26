@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.59](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.58...v1.2.59) (2021-09-26)
+
+
+### Chores
+
+* **deps:** update dependency @vercel/ncc to v0.31.1 ([#88](https://github.com/kunalnagarco/action-semantic-pr/issues/88)) ([2f4078e](https://github.com/kunalnagarco/action-semantic-pr/commit/2f4078e8d49aaeaf4b15833419bcc64e33477f44))
+
 ### [1.2.58](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.57...v1.2.58) (2021-09-26)
 
 
