@@ -53,7 +53,7 @@
     "@semantic-release/release-notes-generator": "9.0.3",
     "@types/jest": "26.0.24",
     "@types/node": "14.14.9",
-    "@typescript-eslint/parser": "4.31.2",
+    "@typescript-eslint/parser": "4.32.0",
     "@vercel/ncc": "0.31.1",
     "conventional-changelog-conventionalcommits": "4.6.1",
     "eslint": "7.32.0",
