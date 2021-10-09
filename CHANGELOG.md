@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.64](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.63...v1.2.64) (2021-10-09)
+
+
+### Chores
+
+* **deps:** update dependency sort-package-json to v1.52.0 ([#94](https://github.com/kunalnagarco/action-semantic-pr/issues/94)) ([57499b6](https://github.com/kunalnagarco/action-semantic-pr/commit/57499b63b4f6b66ed531c7ca6ead45a133de277a))
+
 ### [1.2.63](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.62...v1.2.63) (2021-10-09)
 
 
