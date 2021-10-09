@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.63](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.62...v1.2.63) (2021-10-09)
+
+
+### Chores
+
+* **deps:** update dependency prettier to v2.4.1 ([#93](https://github.com/kunalnagarco/action-semantic-pr/issues/93)) ([6a25db4](https://github.com/kunalnagarco/action-semantic-pr/commit/6a25db478e73185236c96e8be9e78223deeb7876))
+
 ### [1.2.62](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.61...v1.2.62) (2021-10-03)
 
 
