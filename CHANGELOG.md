@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.68](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.67...v1.2.68) (2021-10-16)
+
+
+### Chores
+
+* **deps:** update dependency lint-staged to v11.2.3 ([#98](https://github.com/kunalnagarco/action-semantic-pr/issues/98)) ([abd4998](https://github.com/kunalnagarco/action-semantic-pr/commit/abd4998046bc8d2a25da928a0b2dc9e4077f3d20))
+
 ### [1.2.67](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.66...v1.2.67) (2021-10-16)
 
 
