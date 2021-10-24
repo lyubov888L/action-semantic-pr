@@ -24,7 +24,7 @@ function run() {
         const regexPattern = new RegExp(/^(?<type>build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|¯\\_\(ツ\)_\/¯)(?<scope>\(\w+\)?((?=:\s)|(?=!:\s)))?(?<breaking>!)?(?<subject>:\s.*)?|^(?<merge>Merge \w+)/);
         const title = (_a = github_1.context.payload.pull_request) === null || _a === void 0 ? void 0 : _a.title;
         if (!regexPattern.test(title)) {
-            core_1.setFailed('Invalid PR Title!');
+            (0, core_1.setFailed)('Invalid PR Title!');
         }
     });
 }
