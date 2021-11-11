@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.76...v1.3.0) (2021-11-11)
+
+
+### Features
+
+* set-value CVE-2021-23440 + upgrade ts-jest ([c970443](https://github.com/kunalnagarco/action-semantic-pr/commit/c970443d77c9ccde346a2673a8868a47d65a9d8d))
+
 ### [1.2.76](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.2.75...v1.2.76) (2021-11-06)
 
 
