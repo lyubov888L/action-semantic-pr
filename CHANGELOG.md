@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.3.2](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.3.1...v1.3.2) (2021-12-23)
+
+
+### Chores
+
+* **deps:** pin dependencies ([#107](https://github.com/kunalnagarco/action-semantic-pr/issues/107)) ([d574b12](https://github.com/kunalnagarco/action-semantic-pr/commit/d574b12d79b0f9bd04e480a396a11b3689af0a87))
+* **deps:** update dependency @types/node to v14.18.2 ([#108](https://github.com/kunalnagarco/action-semantic-pr/issues/108)) ([bbe474a](https://github.com/kunalnagarco/action-semantic-pr/commit/bbe474a5257f6fb71d4321d1e9fc7883a2a20ef8))
+
 ### [1.3.1](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.3.0...v1.3.1) (2021-11-26)
 
 
