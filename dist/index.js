@@ -17,18 +17,55 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const github_1 = __nccwpck_require__(5438);
+const utils_1 = __nccwpck_require__(1606);
 const core_1 = __nccwpck_require__(2186);
 function run() {
     var _a;
     return __awaiter(this, void 0, void 0, function* () {
-        const regexPattern = new RegExp(/^(?<type>build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|¯\\_\(ツ\)_\/¯)(?<scope>\(\w+\)?((?=:\s)|(?=!:\s)))?(?<breaking>!)?(?<subject>:\s.*)?|^(?<merge>Merge \w+)/);
         const title = (_a = github_1.context.payload.pull_request) === null || _a === void 0 ? void 0 : _a.title;
-        if (!regexPattern.test(title)) {
+        if (!(0, utils_1.isSemantic)(title)) {
             (0, core_1.setFailed)('Invalid PR Title!');
         }
     });
 }
 run();
+
+
+/***/ }),
+
+/***/ 1606:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+__exportStar(__nccwpck_require__(874), exports);
+
+
+/***/ }),
+
+/***/ 874:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isSemantic = void 0;
+const parse_commit_message_1 = __nccwpck_require__(5142);
+const isSemantic = (message) => {
+    return (0, parse_commit_message_1.validate)(message);
+};
+exports.isSemantic = isSemantic;
 
 
 /***/ }),
@@ -4023,6 +4060,14 @@ exports.Deprecation = Deprecation;
 
 /***/ }),
 
+/***/ 7363:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+/* module decorator */ module = __nccwpck_require__.nmd(module);
+const e=(function(){return this||Function("return this")()})(),{apply:t,defineProperty:n}=Reflect,{freeze:r}=Object,{hasOwnProperty:l}=Object.prototype,o=Symbol.for,{type:i,versions:u}=process,{filename:a,id:s,parent:c}=module,_=x(u,"electron"),p=_&&"renderer"===i;let d="";"string"==typeof s&&s.startsWith("internal/")&&(d=q("internal/esm/loader"));const f=__nccwpck_require__(2282),{Script:m}=__nccwpck_require__(2184),{createCachedData:y,runInNewContext:h,runInThisContext:b}=m.prototype,{sep:g}=__nccwpck_require__(5622),{readFileSync:v}=__nccwpck_require__(5747),w=new f(s);function q(e){let t;try{const{internalBinding:n}=__nccwpck_require__(8183),r=n("natives");x(r,e)&&(t=r[e])}catch(e){}return"string"==typeof t?t:""}function x(e,n){return null!=e&&t(l,e,[n])}function D(){return M(require,w,T),w.exports}function O(e,t){return D()(e,t)}function j(e,t){try{return v(e,t)}catch(e){}return null}let C,F;w.filename=a,w.parent=c;let I="",S="";""!==d?(S=d,F={__proto__:null,filename:"esm.js"}):(I=__dirname+g+"node_modules"+g+".cache"+g+"esm",C=j(I+g+".data.blob"),S=j(__nccwpck_require__.ab + "loader.js","utf8"),null===C&&(C=void 0),null===S&&(S=""),F={__proto__:null,cachedData:C,filename:a,produceCachedData:"function"!=typeof y});const k=new m("const __global__ = this;(function (require, module, __shared__) { "+S+"\n});",F);let M,T;if(M=p?t(b,k,[{__proto__:null,filename:a}]):t(h,k,[{__proto__:null,global:e},{__proto__:null,filename:a}]),T=D(),""!==I){const{dir:e}=T.package;let t=e.get(I);if(void 0===t){let n=C;void 0===n&&(n=null),t={buffer:C,compile:new Map([["esm",{circular:0,code:null,codeWithTDZ:null,filename:null,firstAwaitOutsideFunction:null,firstReturnOutsideFunction:null,mtime:-1,scriptData:n,sourceType:1,transforms:0,yieldIndex:-1}]]),meta:new Map},e.set(I,t)}const{pendingScripts:n}=T;let r=n.get(I);void 0===r&&(r=new Map,n.set(I,r)),r.set("esm",k)}n(O,T.symbol.package,{__proto__:null,value:!0}),n(O,T.customInspectKey,{__proto__:null,value:()=>"esm enabled"}),n(O,o("esm:package"),{__proto__:null,value:!0}),r(O),module.exports=O;
+
+/***/ }),
+
 /***/ 3287:
 /***/ ((__unused_webpack_module, exports) => {
 
@@ -5793,6 +5838,33 @@ function onceStrict (fn) {
   f.called = false
   return f
 }
+
+
+/***/ }),
+
+/***/ 5142:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+/* module decorator */ module = __nccwpck_require__.nmd(module);
+
+
+const path = __nccwpck_require__(5622);
+const esmLoader = __nccwpck_require__(7363);
+const pkg = __nccwpck_require__(8111);
+
+const esmRequire = esmLoader(module);
+
+function interop(x) {
+  if (Object.keys(x).length === 1 && x.default) {
+    return x.default;
+  }
+  return x;
+}
+
+const mod = esmRequire(path.join(__dirname, pkg.module));
+
+module.exports = interop(mod);
 
 
 /***/ }),
@@ -8313,6 +8385,22 @@ module.exports = eval("require")("encoding");
 
 /***/ }),
 
+/***/ 8183:
+/***/ ((module) => {
+
+module.exports = eval("require")("internal/bootstrap/loaders");
+
+
+/***/ }),
+
+/***/ 8111:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"_from":"parse-commit-message","_id":"parse-commit-message@3.2.3","_inBundle":false,"_integrity":"sha512-JujCvCYUrjhmaRHb2AuzR9mAos9JE/5+ZftAaFoGtPhoJ9KNQcgx6JtrWGmGFkVjfky5qTBRjzJeFZla1Po0/A==","_location":"/parse-commit-message","_phantomChildren":{},"_requested":{"type":"tag","registry":true,"raw":"parse-commit-message","name":"parse-commit-message","escapedName":"parse-commit-message","rawSpec":"","saveSpec":null,"fetchSpec":"latest"},"_requiredBy":["#USER","/"],"_resolved":"https://registry.npmjs.org/parse-commit-message/-/parse-commit-message-3.2.3.tgz","_shasum":"96a0b2e3fb295aece355d3a8bd326b6a6f555372","_spec":"parse-commit-message","_where":"/Users/kunalnagar/Documents/Code/kunalnagarco/action-semantic-pr","author":{"name":"Charlike Mike Reagent","url":"https://tunnckocore.com"},"bugs":{"url":"https://github.com/tunnckoCoreLabs/parse-commit-message/issues"},"bundleDependencies":false,"dependencies":{"collect-mentions":"^1.0.2","dedent":"^0.7.0","esm":"^3.0.84","mixin-deep":"^2.0.0"},"deprecated":false,"description":"Extensible parser for git commit messages following Conventional Commits Specification","devDependencies":{"@tunnckocore/config":"^1.0.0","asia":"^0.19.7"},"engines":{"node":"^8.10.0 || >=10.13.0"},"files":["src","index.js"],"homepage":"https://github.com/tunnckoCoreLabs/parse-commit-message","license":"Apache-2.0","licenseStart":"2017","main":"index.js","module":"src/index.js","name":"parse-commit-message","publishConfig":{"access":"public","tag":"latest"},"renovate":{"extends":"tunnckocore"},"repository":{"type":"git","url":"git+https://github.com/tunnckoCoreLabs/parse-commit-message.git"},"scripts":{"clean":"rm -rf node_modules","clean:cache":"rm -rf node_modules/.cache","commit":"yarn dry","docs":"docks --outfile .verb.md && verb","dry":"git add -A && git status --porcelain && gitcommit","lint":"eslint \'**/*.js\' --cache --fix --quiet --format codeframe","precommit":"yarn run lint && yarn run test-only","release":"tunnckocore-release","test":"nyc asia","test-only":"asia -r esm"},"typings":"src/index.d.ts","verb":{"run":true,"toc":{"render":true,"method":"preWrite","maxdepth":4},"layout":"empty","tasks":["readme"],"related":{"list":["asia","charlike","docks","gitcommit","git-commits-since","@tunnckocore/execa","@tunnckocore/create-project","@tunnckocore/update","@tunnckocore/config","@tunnckocore/scripts"]},"lint":{"reflinks":true},"reflinks":["collect-mentions","execa","new-release","semantic-release","detect-next-version","parse-commit-message","recommended-bump"]},"version":"3.2.3"}');
+
+/***/ }),
+
 /***/ 68:
 /***/ ((module) => {
 
@@ -8358,6 +8446,14 @@ module.exports = require("http");
 
 "use strict";
 module.exports = require("https");
+
+/***/ }),
+
+/***/ 2282:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("module");
 
 /***/ }),
 
@@ -8425,6 +8521,14 @@ module.exports = require("util");
 
 /***/ }),
 
+/***/ 2184:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("vm");
+
+/***/ }),
+
 /***/ 8761:
 /***/ ((module) => {
 
@@ -8447,8 +8551,8 @@ module.exports = require("zlib");
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
+/******/ 			id: moduleId,
+/******/ 			loaded: false,
 /******/ 			exports: {}
 /******/ 		};
 /******/ 	
@@ -8461,11 +8565,23 @@ module.exports = require("zlib");
 /******/ 			if(threw) delete __webpack_module_cache__[moduleId];
 /******/ 		}
 /******/ 	
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/node module decorator */
+/******/ 	(() => {
+/******/ 		__nccwpck_require__.nmd = (module) => {
+/******/ 			module.paths = [];
+/******/ 			if (!module.children) module.children = [];
+/******/ 			return module;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/compat */
 /******/ 	
 /******/ 	if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = __dirname + "/";
