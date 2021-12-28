@@ -4,7 +4,9 @@ import {isSemantic} from './utils'
 import {setFailed} from '@actions/core'
 
 async function run(): Promise<void> {
+  console.log(context.payload)
   const title: string = context.payload.pull_request?.title
+  console.log(title)
   console.log(isSemantic(title))
   if (!isSemantic(title)) {
     setFailed('Invalid PR Title!')

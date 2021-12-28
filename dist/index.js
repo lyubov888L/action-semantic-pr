@@ -23,7 +23,9 @@ const core_1 = __nccwpck_require__(2186);
 function run() {
     var _a;
     return __awaiter(this, void 0, void 0, function* () {
+        console.log(github_1.context.payload);
         const title = (_a = github_1.context.payload.pull_request) === null || _a === void 0 ? void 0 : _a.title;
+        console.log(title);
         console.log((0, utils_1.isSemantic)(title));
         if (!(0, utils_1.isSemantic)(title)) {
             (0, core_1.setFailed)('Invalid PR Title!');
