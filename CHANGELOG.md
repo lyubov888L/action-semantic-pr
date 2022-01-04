@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.3.4](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.3.3...v1.3.4) (2022-01-04)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#114](https://github.com/kunalnagarco/action-semantic-pr/issues/114)) ([2089b39](https://github.com/kunalnagarco/action-semantic-pr/commit/2089b39aa21dbd1ea0280999c5b0f61d7ea217d3))
+* **deps:** update dependency @types/node to v14.18.4 ([#112](https://github.com/kunalnagarco/action-semantic-pr/issues/112)) ([0dc90fa](https://github.com/kunalnagarco/action-semantic-pr/commit/0dc90fad269548bfb864b667d5448894ebbb4fea))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.3 ([#113](https://github.com/kunalnagarco/action-semantic-pr/issues/113)) ([7c95681](https://github.com/kunalnagarco/action-semantic-pr/commit/7c9568197fc20a2fa0e1b22f880488c1d2b4b7e6))
+
 ### [1.3.3](https://github.com/kunalnagarco/action-semantic-pr/compare/v1.3.2...v1.3.3) (2021-12-28)
 
 
